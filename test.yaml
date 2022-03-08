@@ -1,0 +1,64 @@
+Title: A test quiz!
+Description: A silly quiz to test the bot's functionality.
+
+Categories:
+  - ID: ST
+    Name: Space Trivia
+    Description: Test your space knowledge!
+    Questions:
+
+      - Prompt: What is Jupiters biggest moon called?
+        Info: Null
+        Media: Null
+        Answer: Io
+        Type: Exact
+        Points: 2
+      
+      - Prompt: Name the largest or smallest planet in our solar system!
+        Info: Either one is fine!
+        Media: Null
+        Answer:
+          - Jupiter
+          - Mercury
+        Type: Any
+        Points: 1
+
+      - Prompt: Which of these planets are gas planets?
+        Info: 
+          - Uranus
+          - Earth
+          - Neptune
+          - Saturn
+        Media: Null
+        Answer: [ 1, 3, 4 ]
+        Type: Each
+        Points: 0.5
+
+  - ID: CT
+    Name: Chemistry Trivia
+    Description: Test your chemistry knowledge!
+    Questions:
+
+      - Prompt: Which of these symbols isn't an element in the periodic table?
+        Info:
+          - Db
+          - Sn
+          - Yb
+          - Yy
+        Media: Null
+        Answer: [ 1 ]
+        Type: Exact
+        Points: 1
+
+      - Prompt: Who was this woman?
+        Info: Full name required.
+        Media: "https://i.imgur.com/v2O7403.jpg"
+        Answer: Marie Curie
+        Type: Exact
+        Points: 2
+
+      - Prompt: What are the first two Elements in the periodic table?
+        Info: Points only if you name both!
+        Answer: [ Hydrogen, Helium ]
+        Type: All
+        Points: 1
